@@ -1,0 +1,128 @@
+.mainBookingCard h2 {
+  font-size: 34px;
+  font-weight: 600;
+  text-align: center;
+  margin: 30px 0px;
+}
+.detailcard {
+  background: hsl(0, 0%, 13%);
+  border-radius: 30px;
+  padding: 60px 16px 90px 30px;
+  display: flex;
+  gap: 20px;
+}
+.username {
+  position: relative;
+}
+.username h4 {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 0px;
+}
+.requestData {
+  display: flex;
+  gap: 20px;
+}
+.requestData h6 {
+  font-size: 12px;
+  font-weight: 400;
+  margin: 10px 0px;
+}
+.leftreq {
+  color: #7e7e7e;
+  width: 90px;
+}
+.rightreq {
+  color: #fff;
+}
+.devideline img {
+  margin-top: 55px;
+  margin-left: 20px;
+  height: 50px;
+}
+.userorderid {
+  margin-top: 42px;
+  margin-left: 20px;
+}
+.detailDes{
+    position: absolute;
+    width: 800px;
+    font-size: 13px;
+    line-height: 26px;
+    bottom: 210px;
+    left: 417px;
+}
+.ant-slider-mark-text-active{
+    color: #B7B7B7 !important;
+    margin-top: 8px !important;
+}
+.ant-slider-mark-text{
+    margin-top: 8px !important;
+}
+.ant-slider .ant-slider-dot{
+    width: 20px ;
+    height: 20px ;
+    top: -9px ;
+    background-color: #4B4B4B;
+    border: none;
+}
+
+.ant-slider .ant-slider-handle::after {
+
+    width: 20px ;
+    height: 20px ;
+    top: -6px ;
+    left: -5px;
+    background-color: #B7B7B7;
+    box-shadow: none;
+}
+.ant-slider .ant-slider-track {
+    background-color: #B7B7B7;
+}
+.SliderRange{
+    margin-top: 50px;
+}
+.mainSliderCard{
+    width: 80%;
+    margin-right: auto;
+    margin-left: 50px;
+}
+
+@media screen and (max-width:580px) {
+    .username h4 {
+        font-size: 24px;
+        margin-top: 30px;
+    }
+
+    .mainBookingCard h2 {
+        font-size: 24px;
+    }
+    .detailcard{
+        flex-direction: column;
+        padding: 40px 20px 270px 20px;
+        gap: 0px;
+    }
+    .devideline{
+        display: none;
+    }
+    .userProfile{
+        margin: auto;
+    }
+    .userorderid{
+        margin: 0px;
+    }
+    .detailDes{
+        width: 322px;
+        left: 30px;
+        bottom: -188px;
+    }
+    .mainSliderCard{
+        width: 100%;
+        margin: auto;
+    }
+    .ant-slider-mark-text{
+        font-size: 8px !important;
+    }
+ 
+}
+

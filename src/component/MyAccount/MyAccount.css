@@ -1,0 +1,590 @@
+.account-main {
+  width: 100%;
+}
+.account-tabs {
+  width: 434px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+  margin: 0px auto;
+  background-color: #292929;
+  height: 63px;
+  border-radius: 50px;
+}
+.tab {
+  width: 20%;
+  cursor: pointer;
+}
+.tab :hover{
+  color: #D42978;
+  transition: all 0.2s;
+}
+.active {
+  background-color: #d42978;
+  color: #fff;
+  border-radius: 50px;
+}
+.active :hover{
+    color: #fff !important;
+}
+.tab-heading {
+  padding: 10px;
+  font-weight: 400;
+}
+.bookingMain {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.detailDesAccount {
+  width: 60%;
+ margin-left: 250px;
+ margin-top: -140px;
+ padding-bottom: 40px;
+}
+.detailDesAccount1 {
+  /* position: absolute;
+  width: 700px;
+  font-size: 13px;
+  top: 800px;
+  line-height: 26px;
+  /* bottom: 13px; */
+  /* left: 317px;  */
+}
+.detailDesAccount2 {
+  position: absolute;
+  width: 700px;
+  font-size: 13px;
+  top: 1130px;
+  line-height: 26px;
+  /* bottom: 13px; */
+  left: 317px;
+}
+.detailDesAccount3 {
+  position: absolute;
+  width: 700px;
+  font-size: 13px;
+  top: 1450px;
+  line-height: 26px;
+  /* bottom: 13px; */
+  left: 317px;
+}
+.suggestions {
+  width: 30%;
+  margin-top: 7%;
+  text-align: right;
+}
+.detailcardAccount {
+  padding: 15px;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 2%;
+}
+.detailAccountItem{
+  background: hsl(0, 0%, 13%);
+  border-radius: 30px;
+  margin-bottom: 20px;
+
+}
+.include-tax {
+  color: rgba(126, 126, 126, 1);
+  font-size: 8px;
+}
+.heading-bookfor {
+  color: rgba(126, 126, 126, 1);
+  font-size: 14px;
+  line-height: 28px;
+}
+.name-bookfor {
+  font-size: 14px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 1);
+}
+.link-needhelp {
+  font-size: 14px;
+  line-height: 28px;
+  color: rgba(212, 41, 120, 1);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.account-heading h2{
+  font-size: 34px;
+  font-weight: 600;
+  text-align: center;
+  margin: 30px 0px;
+}
+/* <-------------Wallet Section------------> */
+.wallet-main {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.walletEarning-section {
+  display: flex;
+  gap: 30px;
+  padding: 20px 20px;
+  width: 900px;
+  margin: 0px auto;
+  background-color: #292929;
+  border-radius: 20px;
+}
+.walletTransec-section{
+    padding: 10px 20px;
+    background-color: #292929;
+    margin: 0px auto;
+    width: 900px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.left-wallet {
+  width: 50%;
+}
+.right-wallet {
+  width: 50%;
+}
+.devidelineWallet {
+  border: 0.5px solid rgba(255, 255, 255, 0.2);
+}
+.leftwallet-heading {
+  display: flex;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.leftwallet-heading span {
+  color: rgba(212, 41, 120, 1);
+}
+.leftWallet-des {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-top: 10px;
+  color: rgba(212, 41, 120, 1);
+}
+
+.transec-table table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .transec-table th{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 8px;
+    text-align: left;
+    color: rgba(126, 126, 126, 1);
+  }
+  .transec-table td {
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 21px;
+  }
+  .transec-table tbody tr {
+    margin-bottom: 10px; /* Adjust the margin-bottom value as needed */
+  }
+  .transe-heading{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px 0px;
+  }
+  .transec-table td:nth-child(4) {
+    /* Your custom styling for the fourth td goes here */
+    color: red; /* Example: Change text color to red */
+    font-weight: bold; /* Example: Make text bold */
+  }
+/* <--------------WishList-------------> */
+.wishlist-main{
+    margin-top: 60px;
+  margin-bottom: 30px;
+}
+.wishlistcard-main{
+    display: flex;
+    width: 100%;
+  
+    gap: 20px;
+}
+.wishcard-item {
+    border-radius: 20px;
+    background: linear-gradient(182.63deg, rgba(169, 45, 169, 0) 37.18%, #A82DAA 110.27%),
+                url("../../assets/svg/user2.svg");
+    background-repeat: no-repeat;
+    background-size: contain; 
+    padding-bottom: 10px;
+    /* height: 455px */
+    width: 25%;
+
+  }
+  .wishcard-heading {
+    padding-top: 85%;
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 10px;
+    line-height: 52.5px;
+  }
+  .wishlistdes{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .deswishlist{
+    font-family: 'Satisfy', cursive;
+     font-size: 20px;
+     line-height: 28.81px;
+     
+  }
+  .cancel-btn{
+    cursor: pointer;
+    background-color: white;
+    margin-right: 10px;
+    color: rgba(212, 41, 120, 1);
+    padding: 5px 15px;
+    border-radius: 50px;
+  }
+  .cancel-btn:hover{
+    border: 1px solid #fff;
+    background: none;
+    color: #fff;
+    transition: all 0.2s;
+  }
+/* <-------------Profile-----------> */
+.form{
+  background-color: rgb(41,41,41);
+  width: 740px;
+  margin: 0px auto;
+  border-radius: 20px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.form{
+  padding-top: 45px !important;
+  padding: 6px;
+}
+.camera-icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+   /* Set height to match width for a perfect circle if needed */
+  border-radius: 50%;
+  margin-top: -14%;
+  /* Use 50% to create a circle, adjust as needed */
+}
+.image-uploaded{
+  width: 150px !important;
+  display: flex;
+  border-radius: 300px;
+  margin: 0px auto;
+}
+.image-uploaded{
+  width: 100%;
+  height: 100%;
+}
+  .input-field{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.input-field label{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.PhoneInputCountry{
+  background-color:  rgba(109, 109, 109, 1);
+  padding: 15px;
+  border-radius: 10px;
+  
+}
+.PhoneInputInput{
+  background-color: none;
+  border: none !important;
+}
+.PhoneInputInput {
+  outline: none;
+}
+.phone-placeholder {
+  background-color: rgb(55, 54, 54);
+  border: 1px solid rgba(109, 109, 109, 1);
+  border-radius: 10px;
+  padding: 6px;
+}
+.input-field input{
+  background-color: rgb(55, 54, 54);
+  border: 1px solid rgba(109, 109, 109, 1);
+  padding: 15px;
+  border-radius: 10px;
+  color: #fff;
+  outline: none;
+  font-family: 'poppins';
+}
+.input-field select{
+  background-color: rgb(55, 54, 54);
+  border: 1px solid rgba(109, 109, 109, 1);
+  padding: 15px;
+  width: 100%;
+  border-radius: 10px;
+}
+.select-menu option{
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 21px;
+ color: rgba(141, 141, 141, 1);
+ 
+}
+.dropdown {
+  width: 100%;
+  border-radius: 10px;
+  background-color: rgb(55, 54, 54);
+  border: 1px solid rgba(109, 109, 109, 1);
+}
+
+.dropdown-header {
+  padding: 15px;
+  cursor: pointer;
+  display: flex;
+  font-size: 13px;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.dropdown-body {
+  padding: 5px;
+  border-top: 1px solid #E5E8EC;
+  display: none;
+}
+
+.dropdown-body.open {
+  display: block;
+}
+
+.dropdown-item {
+  padding: 10px;
+}
+
+.dropdown-item:hover {
+  cursor: pointer;
+}
+
+.dropdown-item-dot {
+  opacity: 0;
+  color: #91A5BE;
+  transition: all .2s ease-in-out;
+}
+
+.dropdown-item-dot.selected {
+  opacity: 1;
+}
+
+.icon {
+  font-size: 13px;
+  color: #91A5BE;
+  transform: rotate(0deg);
+  transition: all .2s ease-in-out;
+}
+
+.icon.open {
+  transform: rotate(90deg);
+}
+.camera-icon img{
+margin-top: 10px;
+cursor: pointer;
+padding-top: 60px ;
+}
+.form-main{
+  padding: 15px;
+}
+.submit-btn{
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  margin-top:5%;
+}
+.submit-btn button{
+  background-color: rgba(212, 41, 120, 1);
+  padding: 10px 80px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  color: #fff;
+  border-radius: 50px;
+}
+.submit-btn button:hover{
+   background-color: transparent;
+  border: 1px solid #D42978;
+  color: #D42978;
+  transition:all 0.2s;
+}
+.discover-more{
+  margin: 50px 0px;
+}
+.discover-more-heading h2{
+  font-weight: 600;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 1);
+}
+.discoverbtn button{
+  cursor: pointer;
+  background-color: rgba(212, 41, 120, 1);
+  padding: 7px 15px;
+  border-radius: 30px;
+  color: #fff;
+}
+.discoverbtn button:hover{
+    border: 1px solid rgba(212, 41, 120, 1);
+    background: none;
+    color: white;
+    transition: 0.2s all;
+}
+.discover-btns{
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+span.anticon.anticon-close.ant-modal-close-icon {
+  background-color: #D42978;
+  color: white;
+  padding: 8px;
+  border-radius: 50px;
+  font-size: 12px;
+  margin-top: -12px;
+}
+.down-arrow {
+  position: relative;  /* Adjust positioning as needed */
+  margin-left: 96%;         /* Adjust positioning as needed */
+  margin-top: -3.5%;            /* Adjust positioning as needed */
+  transform: translateY(-50%);  /* Adjust positioning as needed */
+  cursor: pointer;
+  color: #000;         /* Adjust color as needed */
+}
+.date-picker {
+  width: 96%;
+  cursor: pointer;
+}
+
+
+
+@media screen and (max-width:580px) {
+  .form{
+    width: 95%;
+  }
+  .submit-btn{
+    margin-top: 40px ;
+  }
+}
+  @media screen and (max-width:580px) {
+    .wishlistcard-main{
+        display: flex;
+        flex-direction: column;
+        margin: 0px auto;
+        width: 100%;
+        gap: 20px;
+    }
+    .wishcard-item{
+      width:80%;
+        margin: 0px auto;
+    }
+    .wishcard-heading{
+        margin-top: 15%;
+        font-size: 25px;
+    }
+  }
+@media screen and (max-width: 580px) {
+  .account-tabs {
+    width: auto;
+  }
+  .tab {
+    width: auto;
+  }
+  .detailcardAccount {
+    flex-direction: column;
+    padding: 40px 20px 110px 20px;
+    gap: 0px;
+  }
+
+  .detailDesAccount {
+    width: 90%;
+    margin-left: 20px;
+  
+  }
+  .detailDesAccount1 {
+    width: 322px;
+    left: 30px;
+    top: 1729px;
+  }
+  .detailDesAccount2 {
+    width: 322px;
+    left: 30px;
+    top: 2520px;
+  }
+  .detailDesAccount3 {
+    width: 322px;
+    left: 30px;
+    top: 3310px;
+  }
+  .suggestions {
+    text-align: left;
+  }
+  .account-heading h2{
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 580px) {
+    .walletEarning-section {
+      flex-direction: column;
+      width: auto; /* Stack items vertically on smaller screens */
+      gap: 10px;
+    }
+  
+    .left-wallet,
+    .right-wallet {
+      width: 100%; /* Full width for smaller screens */
+    }
+  
+    .devideline {
+      display: block; /* Show the dividing line on smaller screens */
+      margin: 10px 0; /* Add space above and below the dividing line */
+    }
+  
+    .transe-heading,
+    .devidelineWallet {
+      display: block; /* Show the heading and dividing line on smaller screens */
+      margin: 10px 0; /* Add space above and below the heading and dividing line */
+    }
+    .walletTransec-section{
+        width: auto;
+        overflow-x: scroll;
+
+    }
+    .transec-table {
+        width: 500px;
+      }
+      
+      /* Add a minimum width for each cell to prevent content from shrinking too much */
+      .transec-table th,
+      .transec-table td {
+        min-width: 150px; 
+        box-sizing: border-box;
+      }
+      .date-picker{
+        width: 90%;
+      }
+      .down-arrow {
+        position: relative;
+        margin-left: 90%;
+        margin-top: -8.5%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        color: #000;
+    }
+  }

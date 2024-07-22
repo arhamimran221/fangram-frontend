@@ -1,0 +1,398 @@
+.main-celebrityorder {
+  width: 90%;
+  margin: 0px auto;
+}
+.breadcrumbs {
+  margin: 20px 0px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 600;
+}
+.mainCard-Celebrity {
+  background: rgba(22, 22, 22, 1);
+  display: flex;
+  width: auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+.celebrityImage {
+  width: 24%;
+}
+.celebrity-name {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  align-items: center;
+  height: 55px;
+}
+.celebrity-name h1 {
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 52.5px;
+}
+.celebrityImage img {
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+.celebrity-rating {
+  display: flex;
+  border: 1px solid #fff;
+  padding: 7px 15px;
+  border-radius: 20px;
+  gap: 6px;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+.respond-time {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+}
+.respond-time span {
+  font-weight: 700;
+  color: rgba(212, 41, 120, 1);
+  font-size: 20px;
+}
+.main-topics-btns{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    margin-top: 15px;
+}
+.topicbtn button{
+    background: rgba(41, 41, 41, 1);
+    padding: 10px 20px 10px 20px    ;
+    border-radius: 300px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+}
+.subs-plan-btns{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    margin-top: 15px;
+
+}
+.subsplan-btn button{
+    background: #d42978;
+    padding: 10px 20px 10px 20px    ;
+    border-radius: 300px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+}
+.subsplan-btn-black button {
+    padding: 10px 20px 10px 20px    ;
+
+    background: transparent;
+    border: 1px solid rgba(212, 41, 120, 1);
+    border-radius: 300px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+}
+.secured-payment{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(153, 153, 153, 1);
+}
+.payment-verified{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.celebrity-description {
+  width: 76%;
+      padding: 10px 20px 10px 20px    ;
+
+}
+.celebrity-slider{
+    text-align: end;
+}
+.slider-cel{
+    margin-top: 30%;
+}
+.competitors-main{
+    width: fit-content;
+}
+.heading-avail-offer{
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 67.5px;
+    margin-top: 30px;
+}
+.availofferitems-main{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+.availoffer-item{
+    padding: 10px;
+    margin: 20px 0px;
+    width: 25%;
+    background-color: white;
+    border-left: 6px solid #000000;
+    border-right: 6px solid #000000;
+    border-style: dotted;
+}
+.card-item-recents{
+    margin-top: 20px;
+    border-radius: 20px;
+    background: linear-gradient(182.63deg, rgba(169, 45, 169, 0) 37.18%, #A82DAA 110.27%),
+                url("../../assets/svg/Chota bheem.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding-bottom: 10px;
+    /* height: 455px */
+    width: 25%;
+}
+.Like-item-recents{
+    margin-top: 20px;
+    border-radius: 20px;
+    background: linear-gradient(182.63deg, rgba(169, 45, 169, 0) 37.18%, #A82DAA 110.27%),
+                url("../../assets/svg/Uncleg.svg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding-bottom: 10px;
+    /* height: 455px */
+    width: 25%;
+}
+.card-heading-recent{
+    font-weight: 700;
+    font-size: 30px;
+    list-style: 52.5px;
+    margin-top: 75%;
+    margin-left: 10px;
+}
+.card-heading-Like{
+    font-weight: 700;
+    font-size: 30px;
+    list-style: 52.5px;
+    margin-top: 75%;
+    margin-left: 10px;
+}
+.card-tags{
+    font-family: 'satisfy';
+    margin-left: 10px; 
+    font-weight: 400;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.recent-viewed{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.responsive-maincard{
+    display: flex;
+    width: 100%;
+}
+.card-button button{
+    font-family: 'poppins';
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+ margin: 20px 10px;  
+ margin-bottom: 10px !important;
+ border-radius: 50px; 
+ padding: 5px 15px;
+ color: #fff;
+ background-color: #000000;
+ opacity: 1;
+}
+.recent-heaing{
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 67.5px;
+}
+.pagintions{
+    display: flex;
+    gap: 40px;
+}
+.recent-viewed-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px ;
+}
+.card-items-main{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+.Like-items-main{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+.offer-heading{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    color: rgba(0, 0, 0, 1);
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+gap: 10px;
+
+}
+.activeArrow img{
+    cursor: pointer;
+}
+.notactiveArrow img{
+    cursor: pointer;
+}
+.offer-des{
+    font-family: 'Poppins';
+font-size: 16px;
+margin-top: 10px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(154, 154, 154, 1);
+
+}
+.topicbtn button:hover{
+    background-color: rgba(212, 41, 120, 1);
+}
+.subsplan-btn button:hover{
+   border: 1px solid rgba(212, 41, 120, 1);
+   color: rgba(212, 41, 120, 1);
+   background-color: transparent;
+}
+.subsplan-btn-black button:hover{
+    background-color: rgba(212, 41, 120, 1);
+    border: 1px solid #fff;
+}
+@media screen and (max-width:580px) {
+    .mainCard-Celebrity{
+        flex-direction:column ;
+    }
+    .celebrityImage{
+        width: 33%;
+    }
+    .mainCard-Celebrity{
+        padding: 10px;
+    }
+    .celebrity-name h1{
+      font-size: 20px;
+    }
+    .celebrity-name img{
+        width: 20px;
+    }
+    .celebrity-name{
+        gap: 6px;
+        width: 119%;
+        margin-top: -10px;
+    }
+    .celebrity-rating{
+       font-size: 10px;
+        padding: 5px;
+    }
+    .celebrity-rating img{
+        width: 15px;
+
+    }
+    .celebrityImage img{
+        width: 123.97px;
+        height: 154.96px;
+        top: 134.8px;
+        left: 20.39px;
+        border: none;
+        
+    }
+    .celebrity-description{
+        width: 90%;
+    }
+    .respond-time{
+        font-size: 15px;
+        margin-top: -10px;
+    }
+    .respond-time span{
+        font-size: 17px;
+
+    }
+    .main-topics-btns{
+        flex-wrap: wrap;
+    }
+    .topicbtn button{
+        top: 193px;
+        left: 150px;
+        padding: 2.11px, 4.22px, 2.11px, 4.22px;
+        border-radius: 93.24px;
+        gap: 3.73px;
+        font-size: 14px;
+    }
+    .responsive-maincard{
+        flex-direction: column;
+    }
+    .celebrityImage {
+        width: 100%;
+    }
+    .celebrityImage img{
+        display: flex;
+        margin: 0px auto;
+    }
+    .subs-plan-btns{
+        flex-direction: column;
+    }
+    .secured-payment{
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+    .slider-cel{
+        display: none;
+    }
+    .heart-icon{
+        display: none;
+    }
+    .heading-avail-offer{
+        font-size: 25px;
+    }
+    .availofferitems-main{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .availoffer-item{
+        width: auto;
+    }
+    .recent-heaing{
+        font-size: 25px;
+    }
+    .pagintions{
+        gap: 10px;
+    }
+    .card-items-main{
+        flex-direction: column;
+    }
+    .card-item-recents{
+        width: auto;
+    }
+    .Like-items-main{
+        flex-direction: column;
+
+    }
+    .Like-item-recents{
+        width: auto;
+    }
+}
+

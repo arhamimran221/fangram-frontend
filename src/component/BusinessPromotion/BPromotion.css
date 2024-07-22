@@ -1,0 +1,8 @@
+.banner-promotion{
+    background-image:url("../../assets/images/BannerImge.png") ;
+    width: auto;
+    background-repeat: no-repeat;
+    padding: 40px 80px;
+    background-size: cover;
+    display: flex;
+}

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Caveat&family=Figtree:wght@300;400;500;600;700&family=Oswald&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Work+Sans:wght@400;700&display=swap');
+body{
+  background-color: #000;
+  font-family: 'Poppins';
+  color: #fff;
+}
+button{
+  font-family: 'poppins';
+  border-style: none;
+}
+ul{
+  padding: 0px;
+}
+li{
+  list-style: none;
+}
+.container-fangram{
+  width: 100%;
+  max-width: 1170px;
+  margin: 0px auto;
+}
